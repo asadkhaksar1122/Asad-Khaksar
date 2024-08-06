@@ -1,8 +1,8 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
-
+// https://vitejs.dev/config/
 export default defineConfig({
-  root: "D:/My coding/Project/My Protfolio",
   plugins: [react()],
+  base:"/vite=deploy/"
 });
